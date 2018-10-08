@@ -28,3 +28,18 @@ Found this site from project-based learning github project.
 + `<element>.style.transform = "rotate(90deg)"` - to change the element style
 
 _Just played with `border-radius` to make look hour hand bigger and pointy._
+
+
+### Day 3 ###
+#### Update CSS Variable with Javascript ####
++ css variable can be declared inside `<style>` tag.
+    - `:root { --spacing: 10px } `
+    - use as ` img { padding: var(--spacing)} `
++ `<element>.dataset` - gets all the attribute with `data-*`.
++ `document.querySelectorAll()` returns NodeList, not Array
+    - Array has more options like `map()` function.
+
++ `document.documentElement.style.setProperty('prop', value)`  
++ notice the name and the css variable name are matched for the convenience.
++ `change` event fires when value is changed or mouse is dropped
++ `mousemove` event fires when mouse move, which enable to see the live value applied to css.
