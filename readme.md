@@ -25,5 +25,6 @@ Found this site from project-based learning github project.
 + `transform: rotate(30deg)`- rotates at the element center.
 + `transform-origin:100%`- makes it rotate from x-axis.
 + `const now = new Date()` - way to create a Date variable.
++ `<element>.style.transform = "rotate(90deg)"` - to change the element style
 
 _Just played with `border-radius` to make look hour hand bigger and pointy._
