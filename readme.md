@@ -43,3 +43,15 @@ _Just played with `border-radius` to make look hour hand bigger and pointy._
 + notice the name and the css variable name are matched for the convenience.
 + `change` event fires when value is changed or mouse is dropped
 + `mousemove` event fires when mouse move, which enable to see the live value applied to css.
+
+
+### Day 3 ###
+
+#### Array Cardio 1 ####
++ `console.table()` - that was surprise.
++ `.filter()` - if `true` keep it
++ `.map()` - returns new array of same length as source.
++ `.sort()` - function must return `1` to swap, `-1` to not swap.
++ `{string}.include('searchTerm')`- good way to search the text.
++ `[first, last] = fullName.split(' ')` - destructuring. 
++ `Array.reduce(sum, currentItem)` - this is very useful function.
