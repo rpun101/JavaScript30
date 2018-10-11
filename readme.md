@@ -45,7 +45,7 @@ _Just played with `border-radius` to make look hour hand bigger and pointy._
 + `mousemove` event fires when mouse move, which enable to see the live value applied to css.
 
 
-### Day 3 ###
+### Day 4 ###
 
 #### Array Cardio 1 ####
 + `console.table()` - that was surprise.
@@ -55,3 +55,14 @@ _Just played with `border-radius` to make look hour hand bigger and pointy._
 + `{string}.include('searchTerm')`- good way to search the text.
 + `[first, last] = fullName.split(' ')` - destructuring. 
 + `Array.reduce(sum, currentItem)` - this is very useful function.
+
+### Day 5 ###
+
+#### Flex Panel Image Gallery ####
++ `background-size: cover; background-position: center;`- to scale background images
++ `flex` element can be  `flex-container`.
++ `transform: translateY(-100%)`: to move content vertically
++ `e.propertyName` to see event property Names. Good when working with transform.
++ so Safari only return `flex` instead of `flex-grow`.
+
+_added extra feature to close panel if another panel is clicked_
