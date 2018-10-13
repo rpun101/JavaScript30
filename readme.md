@@ -1,6 +1,16 @@
 ## Introduction ##
 Found this site from project-based learning github project. 
 
+
+## Table of Contents ##
+1. [Drum Kit](#day-1)
+1. [Javscript and CSS clock ](#day-2)
+1. [Update CSS Variable with Javascript ](#day-3)
+1. [Array Cardio 1 ](#day-4)
+1. [Flex Panel Image Gallery ](#day-5)
+1. [Ajax Type Ahead(auto-complete)](#day-6)
+1. [Array Cardio 2 ](#day-7)
+
 ## Recall notes ##
 
 ### Day 1 ###
@@ -80,3 +90,11 @@ _added extra feature to close panel if another panel is clicked_
 + `{variable}.[match(regex)\|replace(regex, 'value')` to use regex
 
 _added feature: if search term is empty, show original html_
+
+### Day 7 ###
+#### Array Cardio 2 ####
++ `Array.some()` at least one 
++ `.every()` all must satisfy condition
++ `.find()` like filter but returns just the one we are looking for.   DataType will be of one's object in an array
++ `.findIndex()` returns the index of first matching element
++ `Array.splice(firstIndexToDelete, howManyCount)`
