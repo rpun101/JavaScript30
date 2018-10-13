@@ -51,18 +51,32 @@ _Just played with `border-radius` to make look hour hand bigger and pointy._
 + `console.table()` - that was surprise.
 + `.filter()` - if `true` keep it
 + `.map()` - returns new array of same length as source.
-+ `.sort()` - function must return `1` to swap, `-1` to not swap.
-+ `{string}.include('searchTerm')`- good way to search the text.
-+ `[first, last] = fullName.split(' ')` - destructuring. 
-+ `Array.reduce(sum, currentItem)` - this is very useful function.
++ `.sort()` - function must return `1` to swap, `-1` to not swap
++ `{string}.include('searchTerm')`- good way to search the text
++ `[first, last] = fullName.split(' ')` - destructuring 
++ `Array.reduce(sum, currentItem)` - this is very useful function
 
 ### Day 5 ###
 
 #### Flex Panel Image Gallery ####
 + `background-size: cover; background-position: center;`- to scale background images
-+ `flex` element can be  `flex-container`.
++ `flex` element can be  `flex-container`
 + `transform: translateY(-100%)`: to move content vertically
-+ `e.propertyName` to see event property Names. Good when working with transform.
-+ so Safari only return `flex` instead of `flex-grow`.
++ `e.propertyName` to see event property Names. Good when working with transform
++ so Safari only return `flex` instead of `flex-grow`
 
 _added extra feature to close panel if another panel is clicked_
+
+
+### Day 6 ###
+
+#### Ajax Type Ahead(auto-complete) ####
+
++ Now browser have `fetch()` api which calls endpoints. it returns `promise`
++ `const x =[]` cannot be reassgined. `x.push([1,2,3])` will push a whole array as one added variable
++ we can use _spread operator_ to push array values to const array variable
++ `x.push(...array)`
++ `new RegExp(wordtoMatch, 'gi')` g|global, i|insensitive
++ `{variable}.[match(regex)\|replace(regex, 'value')` to use regex
+
+_added feature: if search term is empty, show original html_
