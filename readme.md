@@ -98,3 +98,15 @@ _added feature: if search term is empty, show original html_
 + `.find()` like filter but returns just the one we are looking for.   DataType will be of one's object in an array
 + `.findIndex()` returns the index of first matching element
 + `Array.splice(firstIndexToDelete, howManyCount)`
+
+
+### Day 8 ###
+#### HTML5 Canvas ####
++ canvas is like MS Paint in the web
++ can have `2d` or `3d` context
+    - we use context to draw on canvas
++ exit quick in function with `if`
++ destructruing `[lastX, lastY] = [e.offsetX, e.offsetY];`
++ like `RGB` there is `hsl(hue, saturation, lighting)` mothereffinghsl.com
+
+_this was fun exercise. Did not complete the last section because they were just extra_
