@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Console Tricks!</title>
+</head>
+<body>
+
+  <p onClick="makeGreen()">×BREAK×DOWN×</p>
+
+  <script>
+    const dogs = [{ name: 'Snickers', age: 2 }, { name: 'hugo', age: 8 }];
+
+    function makeGreen() {
+      const p = document.querySelector('p');
+      p.style.color = '#BADA55';
+      p.style.fontSize = '50px';
+    }
+
+    // Regular 
+    // console.log('hello');
+
+    // Interpolated 
+    //console.log(`hello ${name}`);
+
+    // Styled
+    console.log('%c hello Rob', 'font-size: 1.3rem');
+    // warning!
+
+    // Error :|
+
+    // Info
+
+    // Testing
+    console.assert(1 === 2, 'one is not equal to 2');
+    // clearing
+
+    // Viewing DOM Elements
+
+    // Grouping together
+    dogs.forEach(dog => {
+        console.group(`${dog.name}`);
+        console.log(`${dog.name} is a dog`);
+        console.log(`${dog.name} is ${dog.year} years old`);
+        console.groupEnd(`${dog.name}`);
+    })
+
+    // counting
+
+    // timing
+    console.time('fetch time');
+    fetch('https://api.github.com/users/rpun101')
+        .then(res => res.json())
+        .then(data => {
+            console.timeEnd('fetch time');
+            console.log(data);
+        })
+
+  </script>
+</body>
+</html>

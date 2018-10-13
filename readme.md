@@ -10,6 +10,8 @@ Found this site from project-based learning github project.
 1. [Flex Panel Image Gallery ](#day-5)
 1. [Ajax Type Ahead(auto-complete)](#day-6)
 1. [Array Cardio 2 ](#day-7)
+1. [HTML5 Canvas ](#day-8)
+1. [DevTools Tricks ](#day-9)
 
 ## Recall notes ##
 
@@ -110,3 +112,39 @@ _added feature: if search term is empty, show original html_
 + like `RGB` there is `hsl(hue, saturation, lighting)` mothereffinghsl.com
 
 _this was fun exercise. Did not complete the last section because they were just extra_
+
+### Day 9 ###
+#### DevTools Tips Essentials ####
++ Styled `console.log('%c hello Rob', 'font-size: 1.3rem');`
+
++ warning! `console.warn('see stacks');`
+
++ Error :| `console.error('!shit');`
+
++ Info `console.info('doing awesome');`
+    - `console.table(array|object)`
+
++ Testing | only prints if test fails
+```js
+    console.assert(1 === 2, 'one is not equal to 2');
+```
+
++ clearing `console.clear()`
+
++ Viewing DOM Elements `console.dir(element)`
+
++ Grouping together
+    `console.group(name) .... console.groupEnd(name)`
+
++ counting `console.count('west');`
+
++ timing 
+```js
+console.time('fetch time');
+fetch('https://api.github.com/users/rpun101')
+    .then(res => res.json())
+    .then(data => {
+        console.timeEnd('fetch time');
+        console.log(data);
+    })
+```
