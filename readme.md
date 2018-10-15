@@ -12,6 +12,7 @@ Found this site from project-based learning github project.
 1. [Array Cardio 2 ](#day-7)
 1. [HTML5 Canvas ](#day-8)
 1. [DevTools Tricks ](#day-9)
+1. [Hold Shift and Check Checkboxes](#day-10)
 
 ## Recall notes ##
 
@@ -148,3 +149,12 @@ fetch('https://api.github.com/users/rpun101')
         console.log(data);
     })
 ```
+
+### Day 10 ###
+#### Hold Shift and Check Checkboxes ####
++ event has `shiftKey`, `ctrlKey` and `altKey` property
++ `boolVariable = !boolVariable` neat way to alter the boolean value
++ `this` knows which input was selected out of all in DOM
++ `<checkboxElement>.checked = true`
++ No need to have click event to cross the checkbox, we can do it by using pseduo class `:checked` and using css
+_this was simple but tricky module to learn_ 
