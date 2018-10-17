@@ -13,6 +13,7 @@ Found this site from project-based learning github project.
 1. [HTML5 Canvas ](#day-8)
 1. [DevTools Tricks ](#day-9)
 1. [Hold Shift and Check Checkboxes](#day-10)
+1. [Custom HTML5 Video Player](#day-11)
 
 ## Recall notes ##
 
@@ -158,3 +159,10 @@ fetch('https://api.github.com/users/rpun101')
 + `<checkboxElement>.checked = true`
 + No need to have click event to cross the checkbox, we can do it by using pseduo class `:checked` and using css
 _this was simple but tricky module to learn_ 
+
+### Day 11 ###
+#### Custom HTML5 Video Player ####
++ HTML5 `autoplay` video element attribute.
++ `video` element can `<videoElement>.[play()|pause()]`
+    - has `pause` and `play` eventListener.
++  `progressBar.style.flexBasis = ${percentage}%;`
