@@ -39,7 +39,6 @@ function handleProgress(){
 }
 
 function scrub(e){
-    console.dir(e);
     const newTime = e.offsetX / progress.offsetWidth ;//* 100;
     video.currentTime = video.duration * newTime;
     // progressBar.style.flexBasis = `${offset}%`;
@@ -52,6 +51,6 @@ video.addEventListener('timeupdate', handleProgress);
 toggle.addEventListener('click', tooglePlay);
 skipButtons.forEach(button => button.addEventListener('click', skip));
 ranges.forEach(range => range.addEventListener('change', handleRange));
-ranges.forEach(range => range.addEventListener('mousemove', handleRange));
+// ranges.forEach(range => range.addEventListener('mousemove', handleRange));
 
 progress.addEventListener('click', scrub);

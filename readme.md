@@ -14,6 +14,8 @@ Found this site from project-based learning github project.
 1. [DevTools Tricks ](#day-9)
 1. [Hold Shift and Check Checkboxes](#day-10)
 1. [Custom HTML5 Video Player](#day-11)
+1. [Key Sequence Detection](#day-12)
+1. [Slide in on Scroll](#day-13)
 
 ## Recall notes ##
 
@@ -164,5 +166,17 @@ _this was simple but tricky module to learn_
 #### Custom HTML5 Video Player ####
 + HTML5 `autoplay` video element attribute.
 + `video` element can `<videoElement>.[play()|pause()]`
-    - has `pause` and `play` eventListener.
+    - has `pause`, `timeupdate` and `play` eventListener.
 +  `progressBar.style.flexBasis = ${percentage}%;`
+
+_did not do last scrub and mousedown events_
+
+### Day 12 ###
+#### Key Sequence Detection ####
++ `event.key` prints 'character', `event.keyCode` prints its code, a is 65
++ `Array.splice(start index, length to cut)` , Use negative number to go back to array indexes.
+
+_key sequence like ArrowUp, Control was not done here_
+
+### Day 13 ###
+#### Slide in on Scroll ####
