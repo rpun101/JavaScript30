@@ -180,3 +180,9 @@ _key sequence like ArrowUp, Control was not done here_
 
 ### Day 13 ###
 #### Slide in on Scroll ####
++ instead of `<element>`, target the class while query selecting
++ debounce function restrict the same event being called in certain period of time
++ useful window properties
+    - `window.scrollY|innerHeight`
++ `<element>.offsetTop` distance in pixel from top of window to element top
++ placeholder images `http://unsplash.it/400/400`
