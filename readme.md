@@ -17,6 +17,7 @@ Found this site from project-based learning github project.
 1. [Key Sequence Detection](#day-12)
 1. [Slide in on Scroll](#day-13)
 1. [JavaScript References VS Copying](#day-14)
+1. [Local Storage](#day-15)
 
 ## Recall notes ##
 
@@ -201,3 +202,14 @@ _key sequence like ArrowUp, Control was not done here_
     - `Object.assign({}, person , {location: 'blomington'});`
     - **warning**: it will only copy one level deep, child levels will still have referece copy
     - for all level clone, search for deep clone methods
+
+### Day 15 ###
+#### Local Storage ####
++ use `submit` event, not `click` for submit events
++ parenthesis around query will execute first/immediately
+    - `const text = (this.querySelector('[name=item]')).value;`
++ to clear all the forms value
+    - `this.reset()`
++ link `input` and `label` element using `for` attribute
++ `JSON.stringfy() <=> .parse()`
++ `localStorage.[getItem|setItem]`, key value data type
