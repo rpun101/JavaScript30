@@ -210,6 +210,11 @@ _key sequence like ArrowUp, Control was not done here_
     - `const text = (this.querySelector('[name=item]')).value;`
 + to clear all the forms value
     - `this.reset()`
-+ link `input` and `label` element using `for` attribute
++ link `input` and `label` element using `for` attribute with `id` of input
 + `JSON.stringfy() <=> .parse()`
 + `localStorage.[getItem|setItem]`, key value data type
++ `!e.target.matches('input'))` match is new api
++ override input `content` property to change its appearance
++ for `event delegation`
+    - think it this way, parent are more responsible than the child
+    - newly created child will not have event listener, so adding event listener to parent is good way to include every child
