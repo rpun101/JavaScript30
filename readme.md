@@ -16,6 +16,7 @@ Found this site from project-based learning github project.
 1. [Custom HTML5 Video Player](#day-11)
 1. [Key Sequence Detection](#day-12)
 1. [Slide in on Scroll](#day-13)
+1. [JavaScript References VS Copying](#day-14)
 
 ## Recall notes ##
 
@@ -186,3 +187,17 @@ _key sequence like ArrowUp, Control was not done here_
     - `window.scrollY|innerHeight`
 + `<element>.offsetTop` distance in pixel from top of window to element top
 + placeholder images `http://unsplash.it/400/400`
+
+### Day 14 ###
+#### JavaScript References VS Copying ####
++ Array, and **Object** is copied by reference in JS
++ ways to copy value of array without refernce
+    - `Array.slice()`
+    - `[].concat(array)`
+    - ES6 spread `let x = [...array]`
+    - **best one** `Array.from(array)`
++ ways to copy Object value by its value only
+    - `Object.assign(target, source [, source2 ...]);`
+    - `Object.assign({}, person , {location: 'blomington'});`
+    - **warning**: it will only copy one level deep, child levels will still have referece copy
+    - for all level clone, search for deep clone methods
