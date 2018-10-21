@@ -213,6 +213,9 @@ _key sequence like ArrowUp, Control was not done here_
 + link `input` and `label` element using `for` attribute with `id` of input
 + `JSON.stringfy() <=> .parse()`
 + `localStorage.[getItem|setItem]`, key value data type
++ localStorage value persist even when broser is closed and reopened
+    - persists longer than the sessionStorage
+    - it classifies by domain name
 + `!e.target.matches('input'))` match is new api
 + override input `content` property to change its appearance
 + for `event delegation`
